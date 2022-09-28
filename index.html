@@ -63,19 +63,19 @@
   width: 16.66%;
 }
 
-.column div {
+.column {
   opacity: 0.6;
   background-color: #000;
   height: 100px;
-  width: 100%;
+
   color: #fff;
   display: inline-flex;
   justify-content: center;
   align-items: center;
 }
 
-.active div,
-.column div:hover {
+.active,
+.column:hover {
   opacity: 1;
 }
 .slides{
@@ -99,24 +99,13 @@
   <a class="next" onclick="plusSlides(1)">❯</a>
 
   <div class="row">
-    <div class="column">
-      <div class="" onclick="currentSlide(1)"> 1 </div>
-    </div>
-    <div class="column">
-      <div class="" onclick="currentSlide(2)"> 2 </div>
-    </div>
-    <div class="column">
-      <div class="" onclick="currentSlide(3)"> 3 </div>
-    </div>
-    <div class="column">
-      <div class="" onclick="currentSlide(4)"> 4 </div>
-    </div>
-    <div class="column">
-      <div onclick="currentSlide(5)"> 5 </div>
-    </div>
-    <div class="column">
-      <div class="" onclick="currentSlide(6)"> 6 </div>
-    </div>
+    <div class="column" onclick="currentSlide(1)">1</div>
+    <div class="column" onclick="currentSlide(2)">2</div>
+    <div class="column" onclick="currentSlide(3)">3</div>
+    <div class="column" onclick="currentSlide(4)">4</div>
+    <div class="column" onclick="currentSlide(5)">5</div>
+    <div class="column" onclick="currentSlide(6)">6</div>
+    
   </div>
 </div>
 
